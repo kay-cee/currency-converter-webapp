@@ -1,0 +1,43 @@
+h1{
+    text-align: center;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+   /* border: solid black 3px;*/
+}
+.row{
+	margin: 20px;
+	padding: 10px 30px;
+	display: inline-block;
+	background-color: gray;
+	border-color: black;
+	text-align: center;
+	border-radius: 10px;
+}
+
+.from{
+	float: left;
+}
+.to{
+	float: right;
+}
+.col-md-6{
+	width: 50%;
+}
+button{
+	margin-top: 20px;
+	padding: 9px 9px;
+	background-color: #2323ff;
+	color: white;
+	border-style: ridge;
+	border-radius: 10px;
+	
+}
+@media screen and width (max-width: 500px){
+	.col-md-6{
+	width: 100%;
+}
+}
