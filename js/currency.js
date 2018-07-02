@@ -49,27 +49,10 @@ function convert(){
             let tax = results.results;
            for(key in tax){
            converted_value = tax[key].val*amount;
-           // document.getElementById("converted").value = "Converted Value: "+converted_value.toFixed(3)+" "+selected_to;
-           document.getElementById("converted").value = converted_value.toFixed(3)
+           document.getElementById("converted").value = converted_value.toFixed(2)
 
            }
         }
     )
 
 }
-
-//SORT METHOD
-   //let sorting = Object.values(results.results).sort((a,b)=>{ return a.currencyName.localeCompare(b.currencyName)
-            //});
-
-               //JSON.stringify(sorting);
-          //  console.log(currency);
-          //  let sjon =JSON.parse(currency)
-            // console.log(sjon);
-
-/*  how  my  social life changed 
-
-on the  beggining  of  the journy i had  this  type  of  life... used  to go out every weekend. friday  to sunday and sometimes on holidays i  could  go till monday;;;;
-that  seemed  good for me  cause i was  having  fun...  was  meeting  people... and  yes  spending  money  i  didnt really have.
-that  delayed my  work  so bad... and the company  work... i  wasnt only  sabotaging myself  but the company tooo...
-they  */

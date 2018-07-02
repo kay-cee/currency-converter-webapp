@@ -1,12 +1,8 @@
-h1{
-    text-align: center;
-}
 
 body{
     height: 100%;
     width: 100%;
     text-align: center;
-   /* border: solid black 3px;*/
 }
 .row{
 	margin: 20px;
@@ -16,6 +12,9 @@ body{
 	border-color: black;
 	text-align: center;
 	border-radius: 10px;
+}
+h1{
+    text-align: center;
 }
 
 .from{
@@ -36,8 +35,23 @@ button{
 	border-radius: 10px;
 	
 }
-@media screen and width (max-width: 500px){
+select{
+	width: 90%;
+	padding: 8px 8px;
+}
+input{
+	width: 90%;
+	padding: 8px 8px;
+}
+@media screen and (max-width: 500px){
 	.col-md-6{
 	width: 100%;
+	margin-top: 20px;
 }
+	input{
+		width: 100%;
+	}
+	select{
+		width: 100%;
+	}
 }
